@@ -10,6 +10,8 @@
 
 ## 本地命令
 
+工作目录：仓库内的 `caretruce/`（云环境为 `/workspace/-/caretruce`）。AI 接入当前暂缓。
+
 ```sh
 npm ci
 npm run dev:h5

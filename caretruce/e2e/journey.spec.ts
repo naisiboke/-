@@ -37,10 +37,10 @@ test('records a conflict, preserves draft on back, and tracks an adjustment', as
   await expect(page.getByText('从一次记录开始')).toBeVisible()
   expect(errors).toEqual([])
 })
-test('AI preview can hide selected names and never sends while unavailable', async ({ page }) => {
+test('AI preview can hide selected names and never sends while unavailable', async ({ page, baseURL }) => {
   const external: string[] = []
   page.on('request', (r) => {
-    if (!r.url().startsWith('http://localhost:5173')) external.push(r.url())
+    if (!r.url().startsWith(baseURL!)) external.push(r.url())
   })
   await page.goto('/')
   await page.getByText('开始记录', { exact: true }).click()
