@@ -1,0 +1,25 @@
+{
+  "name": "照护停火",
+  "appid": "",
+  "description": "给照护者留一点整理自己的时间",
+  "versionName": "0.1.0",
+  "versionCode": 1,
+  "transformPx": false,
+  "h5": {
+    "title": "照护停火 CareTruce",
+    "router": {
+      "mode": "hash"
+    }
+  },
+  "app-plus": {
+    "distribute": {
+      "android": {
+        "permissions": []
+      },
+      "ios": {}
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}

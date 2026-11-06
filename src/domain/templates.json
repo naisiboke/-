@@ -1,0 +1,146 @@
+[
+  {
+    "id": "tasks-unassigned-v1",
+    "category": "tasks",
+    "context": "unassigned",
+    "label": "还没明确谁负责",
+    "gap": "这次分歧可能与责任和确认时间尚未约定有关。",
+    "action": "下次复诊前两天，提出一个具体的陪诊请求，并约定答复时间。"
+  },
+  {
+    "id": "tasks-changed-v1",
+    "category": "tasks",
+    "context": "changed",
+    "label": "原来的安排临时变了",
+    "gap": "临时变化之后，替代安排可能没有及时确认。",
+    "action": "为下一次照护约定一个备选联系人；有人临时无法到场时，先确认替代安排。"
+  },
+  {
+    "id": "tasks-overload-v1",
+    "category": "tasks",
+    "context": "overload",
+    "label": "约定了，但很难做到",
+    "gap": "既有分工可能超出了某个人当前能承担的范围。",
+    "action": "下次沟通时，只挑一项最吃力的任务，讨论能否换成对方能做到的另一项。"
+  },
+  {
+    "id": "medical-unassigned-v1",
+    "category": "medical",
+    "context": "unassigned",
+    "label": "谁参与决定还不清楚",
+    "gap": "医疗讨论的参与方式可能尚未明确。",
+    "action": "下次就诊前，邀请需要参与的人各写下一个问题，集中向医生确认。"
+  },
+  {
+    "id": "medical-changed-v1",
+    "category": "medical",
+    "context": "changed",
+    "label": "有人没有收到完整信息",
+    "gap": "参与者掌握的信息可能不一致。",
+    "action": "作决定前，先整理医生给出的选项和待确认问题，请参与者确认是否理解一致。"
+  },
+  {
+    "id": "medical-overload-v1",
+    "category": "medical",
+    "context": "overload",
+    "label": "对风险的接受程度不同",
+    "gap": "分歧可能在于对风险和照护负担的看法不同。",
+    "action": "下一次讨论先分别说出最担心的一项风险，再把未明确的问题带给医生。"
+  },
+  {
+    "id": "information-unassigned-v1",
+    "category": "information",
+    "context": "unassigned",
+    "label": "不知道由谁同步信息",
+    "gap": "信息同步的责任可能没有明确。",
+    "action": "下次就诊前，约定由一人整理结果，并在结束后一个约定时间内同步。"
+  },
+  {
+    "id": "information-changed-v1",
+    "category": "information",
+    "context": "changed",
+    "label": "信息变了但没有更新",
+    "gap": "变更后的确认环节可能缺失。",
+    "action": "下一次安排有变时，发一条包含新时间和负责人更新的消息，请相关人明确回复。"
+  },
+  {
+    "id": "information-overload-v1",
+    "category": "information",
+    "context": "overload",
+    "label": "消息太多，看不到重点",
+    "gap": "重要安排可能被大量消息淹没。",
+    "action": "下次同步只用三项：发生了什么、需要做什么、请谁何时答复。"
+  },
+  {
+    "id": "cost-unassigned-v1",
+    "category": "cost",
+    "context": "unassigned",
+    "label": "支出前没有商量",
+    "gap": "费用边界和确认方式可能还没约定。",
+    "action": "下一笔非紧急支出前，先说明用途与预计金额，请相关人确认可承担的范围。"
+  },
+  {
+    "id": "cost-changed-v1",
+    "category": "cost",
+    "context": "changed",
+    "label": "实际支出超过预期",
+    "gap": "超出预算时的沟通方式可能缺少约定。",
+    "action": "下次讨论先约定一个需要再次确认的金额界限，非紧急超出部分先沟通。"
+  },
+  {
+    "id": "cost-overload-v1",
+    "category": "cost",
+    "context": "overload",
+    "label": "各自可承担的范围不同",
+    "gap": "不同的经济与时间条件可能没有被充分说明。",
+    "action": "下一次只讨论未来一个月各自能承担的金额或任务，不先要求平均。"
+  },
+  {
+    "id": "support-unassigned-v1",
+    "category": "support",
+    "context": "unassigned",
+    "label": "不知道怎么提出帮助",
+    "gap": "需要的支持可能还没有被说成具体请求。",
+    "action": "下一次需要帮助时，提出一件明确的小事，并说明希望何时得到答复。"
+  },
+  {
+    "id": "support-changed-v1",
+    "category": "support",
+    "context": "changed",
+    "label": "想被倾听却收到了建议",
+    "gap": "倾听和解决问题的期待可能没有对齐。",
+    "action": "下次聊天开始时，先说希望被听十分钟，暂时不需要建议，并询问对方是否方便。"
+  },
+  {
+    "id": "support-overload-v1",
+    "category": "support",
+    "context": "overload",
+    "label": "长期照护让我很疲惫",
+    "gap": "可休息时间可能没有被纳入分工。",
+    "action": "为未来一周提出一个明确的休息时段，与家人讨论谁能接手其中的一项任务。"
+  },
+  {
+    "id": "remote-unassigned-v1",
+    "category": "remote",
+    "context": "unassigned",
+    "label": "建议没有对应的执行人",
+    "gap": "建议与实际执行责任可能尚未衔接。",
+    "action": "下次收到建议时，选一条具体讨论，并询问提出建议的人能否负责其中一个环节。"
+  },
+  {
+    "id": "remote-changed-v1",
+    "category": "remote",
+    "context": "changed",
+    "label": "对方不了解现场变化",
+    "gap": "现场限制可能没有同步到远程参与者。",
+    "action": "下次讨论前，先说明一个现场限制，再邀请对方提出符合这个限制的帮助方式。"
+  },
+  {
+    "id": "remote-overload-v1",
+    "category": "remote",
+    "context": "overload",
+    "label": "远程的人想帮忙但不知做什么",
+    "gap": "远程参与的具体入口可能不清楚。",
+    "action": "从预约、资料整理或电话咨询中选一项，提出一个异地可以完成的具体请求。"
+  }
+]

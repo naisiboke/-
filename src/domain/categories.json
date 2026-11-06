@@ -1,0 +1,32 @@
+[
+  {
+    "id": "tasks",
+    "label": "任务遗漏",
+    "description": "陪诊、接送或日常照护没有接上"
+  },
+  {
+    "id": "medical",
+    "label": "医疗决策",
+    "description": "治疗、检查或就医安排意见不同"
+  },
+  {
+    "id": "information",
+    "label": "信息不同步",
+    "description": "消息传达、群聊或交接出现了落差"
+  },
+  {
+    "id": "cost",
+    "label": "费用分歧",
+    "description": "支出、分担比例或支付安排有分歧"
+  },
+  {
+    "id": "support",
+    "label": "情感支持",
+    "description": "付出没有被理解，或很难开口求助"
+  },
+  {
+    "id": "remote",
+    "label": "远程指导",
+    "description": "异地建议和现场照护难以衔接"
+  }
+]
